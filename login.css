@@ -1,0 +1,71 @@
+form
+{
+margin-top:20px;
+text-align: center;
+color:rgb(255, 255, 255);
+}
+html{
+    background-color:rgb(41, 41, 41);
+}
+.header li
+{
+
+    font-size:1.3vw;
+    list-style: none;
+    margin-top: -21px;
+    padding:1.3em 3vw;
+}
+.header li
+{
+    @media screen and (max-width:599px) {
+        font-size:10px;
+    }
+}
+
+.header-list li:hover
+{
+    transition: 0.5s;
+    color:rgb(255, 255, 255);
+    background-color :rgb(255, 34, 34);
+}
+
+.header-logo li
+{
+
+    font-weight:bold;
+    float: left;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 126, 126);
+    font-size: 2.5vw;
+    padding:0.29em 2vw;
+
+}
+
+.header
+{
+    background-color:rgb(255, 36, 36) ;
+    width:100vw;
+    height:auto;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.header-list li
+{
+    transition: 0.5s;
+    background-color: rgb(255, 36, 36);
+    float:left;
+
+}
+.header-list li a
+{
+    transition: 0.5s;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.header-list li:hover a
+{
+    transition: 0.3s;
+    color:rgb(255, 255, 255);
+}
